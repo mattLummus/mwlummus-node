@@ -1,0 +1,23 @@
+{
+	"name": "spaBoilerplate",
+		"author": "mattLummus",
+		"repository": "https://github.com/mattLummus/spaBoilerplate",
+		"version": "0.0.0",
+		"scripts": {
+			"start": "gulp"
+		},
+		"dependencies": {
+			"express": "3.0.x",
+			"nodemon": "remy/nodemon",
+			"gulp": "gulpjs/gulp",
+			"gulp-sourcemaps": "floridoo/gulp-sourcemaps",
+			"gulp-uglify": "terinjokes/gulp-uglify",
+			"gulp-util": "gulpjs/gulp-util",
+			"browserify": "substack/node-browserify",
+			"watchify": "substack/watchify",
+			"uglifyify": "hughsk/uglifyify",
+			"vinyl-source-stream": "hughsk/vinyl-source-stream",
+			"mercury": "raynos/mercury"
+		},
+		"analyze": false
+}
