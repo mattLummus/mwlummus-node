@@ -23,7 +23,8 @@ app.configure('development', function(){
 	app.use(express.errorHandler());
 });
 
-
+//TODO: enable server side rendering
+//TODO: render landing page from server
 app.get('/', function (req, res) {
 	res.sendfile(__dirname + '/public/index.html');
 });

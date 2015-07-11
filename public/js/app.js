@@ -1,3 +1,5 @@
+// app.js is the atom (top level) of the application.
+
 module.exports = function () {
 	var hg = require('mercury'),
 		h = hg.h;

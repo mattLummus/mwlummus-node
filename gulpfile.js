@@ -47,7 +47,7 @@ gulp.task('default', function () {
 
 		nodemon.on('restart', function (files) {
 			console.log('');
-			console.log('App restarted due to:');
+			console.log('Server restarted due to:');
 			files.forEach(function (file) {
 				var dir = process.cwd();
 				output = file.replace(dir + '/', '--');

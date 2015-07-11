@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+.page {
+	background-color: yellow;
+}
+
+h1 {
+	color: green;
+}
